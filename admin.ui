@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>admin</class>
+ <widget class="QWidget" name="admin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1176</width>
+    <height>663</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="avg">
+   <property name="geometry">
+    <rect>
+     <x>1010</x>
+     <y>430</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;黑体&quot;;
+color:#ffffff;
+background: #0275FF;
+border-radius: 3px;</string>
+   </property>
+   <property name="text">
+    <string>课程平均统计</string>
+   </property>
+  </widget>
+  <widget class="QTableView" name="sc">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>30</y>
+     <width>751</width>
+     <height>601</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:none;
+  outline:0px;
+  background-color:rgb(255,255,255);
+  alternate-background-color:  #F6FAFF;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Maintable">
+   <property name="geometry">
+    <rect>
+     <x>840</x>
+     <y>290</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;黑体&quot;;
+color:#ffffff;
+background: #0275FF;
+border-radius: 3px;</string>
+   </property>
+   <property name="text">
+    <string>学生成绩总表</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="stu_info">
+   <property name="geometry">
+    <rect>
+     <x>840</x>
+     <y>220</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;黑体&quot;;
+color:#ffffff;
+background: #0275FF;
+border-radius: 3px;</string>
+   </property>
+   <property name="text">
+    <string>学生信息总表</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="tch">
+   <property name="geometry">
+    <rect>
+     <x>840</x>
+     <y>360</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;黑体&quot;;
+color:#ffffff;
+background: #0275FF;
+border-radius: 3px;</string>
+   </property>
+   <property name="text">
+    <string>教师信息总表</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="class_2">
+   <property name="geometry">
+    <rect>
+     <x>840</x>
+     <y>430</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;黑体&quot;;
+color:#ffffff;
+background: #0275FF;
+border-radius: 3px;</string>
+   </property>
+   <property name="text">
+    <string>班级开设总表</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="courses">
+   <property name="geometry">
+    <rect>
+     <x>840</x>
+     <y>500</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;黑体&quot;;
+color:#ffffff;
+background: #0275FF;
+border-radius: 3px;</string>
+   </property>
+   <property name="text">
+    <string>课程信息总表</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="clscours">
+   <property name="geometry">
+    <rect>
+     <x>840</x>
+     <y>570</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;黑体&quot;;
+color:#ffffff;
+background: #0275FF;
+border-radius: 3px;</string>
+   </property>
+   <property name="text">
+    <string>班级课程总表</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="login_show">
+   <property name="geometry">
+    <rect>
+     <x>840</x>
+     <y>150</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;黑体&quot;;
+color:#ffffff;
+background: #0275FF;
+border-radius: 3px;</string>
+   </property>
+   <property name="text">
+    <string>学生登录信息表</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="area">
+   <property name="geometry">
+    <rect>
+     <x>1010</x>
+     <y>500</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;黑体&quot;;
+color:#ffffff;
+background: #0275FF;
+border-radius: 3px;</string>
+   </property>
+   <property name="text">
+    <string>地区统计</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="insert">
+   <property name="geometry">
+    <rect>
+     <x>1010</x>
+     <y>150</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;黑体&quot;;
+color:#ffffff;
+background: #0275FF;
+border-radius: 3px;</string>
+   </property>
+   <property name="text">
+    <string>新增</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="submit">
+   <property name="geometry">
+    <rect>
+     <x>1010</x>
+     <y>290</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;黑体&quot;;
+color:#ffffff;
+background: #0275FF;
+border-radius: 3px;</string>
+   </property>
+   <property name="text">
+    <string>提交</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="delete_2">
+   <property name="geometry">
+    <rect>
+     <x>1010</x>
+     <y>220</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;黑体&quot;;
+color:#ffffff;
+background: #0275FF;
+border-radius: 3px;</string>
+   </property>
+   <property name="text">
+    <string>删除</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancer">
+   <property name="geometry">
+    <rect>
+     <x>1010</x>
+     <y>360</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;黑体&quot;;
+color:#ffffff;
+background: #0275FF;
+border-radius: 3px;</string>
+   </property>
+   <property name="text">
+    <string>取消</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="search">
+   <property name="geometry">
+    <rect>
+     <x>1010</x>
+     <y>570</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;黑体&quot;;
+color:#ffffff;
+background: #0275FF;
+border-radius: 3px;</string>
+   </property>
+   <property name="text">
+    <string>搜索</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>870</x>
+     <y>50</y>
+     <width>251</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 1px solid #999999;
+  border-radius: 3px;
+  color:#666666;
+  font-size:9pt;</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
